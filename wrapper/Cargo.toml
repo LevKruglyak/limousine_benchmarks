@@ -1,0 +1,13 @@
+[package]
+name = "wrapper"
+version = "0.1.0"
+edition = "2021"
+description = "A simple wrapper for benchmarking limousine."
+authors = ["Lev Kruglyak <lev.kruglyak2014@gmail.com>"]
+keywords = ["btree", "pgm", "database", "proc_macro", "limousine"]
+license = "Apache-2.0"
+repository = "https://github.com/LevKruglyak/limousine_wrapper"
+
+[dependencies]
+fixedstr = "0.4.6"
+limousine_engine = "0.2"
